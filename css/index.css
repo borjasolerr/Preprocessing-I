@@ -170,7 +170,6 @@ h3 {
   margin: 10% 10% 0 15%;
 }
 .main-container-services {
-  margin: 5% 0;
   background-color: #E6E6EA;
 }
 .section-container {
@@ -210,6 +209,9 @@ h3 {
 }
 .section-container .section-inner {
   margin: 0 10%;
+}
+.section-container .section-inner2 {
+  margin: 0 38%;
 }
 .section-container .services-title {
   margin: 5% 0;
