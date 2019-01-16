@@ -177,6 +177,11 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /* Container for skill bars */
+  /* Green */
+  /* Blue */
+  /* Red */
+  /* Dark Grey */
 }
 .section-container .introduction {
   display: flex;
@@ -268,6 +273,36 @@ h3 {
   list-style: none;
   border-bottom: 1px solid #ccc;
   display: block;
+}
+.section-container .container-skills {
+  width: 100%;
+  /* Full width */
+  background-color: #ddd;
+  /* Grey background */
+}
+.section-container .skills {
+  text-align: right;
+  /* Right-align text */
+  padding: 10px;
+  /* Add some padding */
+  color: white;
+  /* White text color */
+}
+.section-container .html {
+  width: 60%;
+  background-color: #4CAF50;
+}
+.section-container .css {
+  width: 50%;
+  background-color: #2196F3;
+}
+.section-container .js {
+  width: 10%;
+  background-color: #f44336;
+}
+.section-container .php {
+  width: 0%;
+  background-color: #808080;
 }
 div {
   display: block;
