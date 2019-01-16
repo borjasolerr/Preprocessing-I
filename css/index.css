@@ -133,5 +133,150 @@ table {
 html,
 body {
   height: 100%;
-  background-color: red;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+}
+header .nav-container {
+  padding: 1% 2% 0 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: 300;
+}
+header .nav-container .nav-logo-container {
+  width: 40%;
+}
+header .nav-container .nav-logo-container img {
+  max-width: 12%;
+}
+header .nav-container .nav-items-container {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+header .nav-container .nav-items-container a {
+  text-decoration: none;
+  color: #1a272f;
+  font-size: 0.9rem;
+}
+h3 {
+  font-size: 1.45rem;
+  font-weight: 700;
+}
+.main-container {
+  margin: 10% 10% 0 15%;
+}
+.main-container-services {
+  margin: 5% 0;
+  background-color: #E6E6EA;
+}
+.section-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section-container .introduction {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.section-container .introduction h1 {
+  padding-top: 15%;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #1a272f;
+}
+.section-container .introduction p {
+  padding-top: 5%;
+  line-height: 1.8;
+  font-size: 1.5rem;
+  color: #444444;
+}
+.section-container .introduction .signature {
+  max-width: 30%;
+}
+.section-container .main-img {
+  width: 33%;
+  margin-top: 5%;
+  z-index: 0;
+}
+.section-container .section-inner {
+  margin: 0 10%;
+}
+.section-container .services-title {
+  margin: 5% 0;
+  font-weight: 700;
+  font-size: 4rem;
+  color: #1a272f;
+  text-align: center;
+}
+.section-container .section-text-introduce {
+  text-align: center;
+  margin-bottom: 2%;
+}
+.section-container .row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.section-container .col-md-3 {
+  position: relative;
+  width: 33%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.section-container .card-primary {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.03);
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+}
+.section-container .card-service {
+  margin-bottom: 30px;
+}
+.section-container .card-figure {
+  margin-bottom: 25px;
+  text-align: center;
+}
+.section-container .service-icon {
+  width: 82px;
+  height: 82px;
+  background: #fff537;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-container .card-header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.section-container .card-text {
+  font-size: 15px;
+}
+.section-container .au-nav-tabs {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+  display: block;
+}
+div {
+  display: block;
+  margin: 2.5% 0;
+}
+figure {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
 }
